@@ -710,7 +710,7 @@ object Form2: TForm2
     object iBasket: TImage
       Left = 1
       Top = 420
-      Width = 183
+      Width = 32
       Height = 32
       Align = alBottom
       AutoSize = True
@@ -772,7 +772,6 @@ object Form2: TForm2
         7154992BE4EA57F2CEBDE7BCBF202CC2C1532F0902C5DC15862F6665EAAFDE68
         AD5B02B89DF20F2A61124E326F36AE0000000049454E44AE426082}
       ExplicitTop = 428
-      ExplicitWidth = 32
     end
   end
 end

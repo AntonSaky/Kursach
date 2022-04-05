@@ -52,14 +52,14 @@ uses
 
 procedure TForm2.iFishClick(Sender: TObject);
 begin
-  Form2.Close;
-  Form1.Show;
+//  Form2.Close;
+//  Form1.Show;
 end;
 
 procedure TForm2.lSeafoodClick(Sender: TObject);
 begin
-  Form2.Close;
-  Form1.Show;
+//  Form2.Close;
+//  Form1.Show;
 end;
 
 end.

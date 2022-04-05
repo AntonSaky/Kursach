@@ -1,4 +1,4 @@
-object Form1: TForm1
+object fMain: TfMain
   Left = 0
   Top = 0
   Caption = #1042#1089#1077' '#1087#1088#1086#1076#1091#1082#1090#1099
@@ -765,8 +765,8 @@ object Form1: TForm1
     TabOrder = 1
     object pProduct: TPanel
       AlignWithMargins = True
-      Left = 3
-      Top = 3
+      Left = 347
+      Top = 37
       Width = 120
       Height = 160
       Margins.Left = 5

@@ -102,7 +102,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="ufMain.pas">
-            <Form>Form1</Form>
+            <Form>fMain</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="ufProducts.pas">

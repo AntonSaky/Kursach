@@ -2,7 +2,7 @@ program SakaShop;
 
 uses
   Vcl.Forms,
-  ufMain in 'ufMain.pas' {Form1},
+  ufMain in 'ufMain.pas' {fMain},
   ufProducts in 'ufProducts.pas' {Form2};
 
 {$R *.res}
@@ -10,7 +10,7 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfMain, fMain);
   Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.
