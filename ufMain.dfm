@@ -79,7 +79,7 @@ object fMain: TfMain
     object lSeafood: TLabel
       AlignWithMargins = True
       Left = 46
-      Top = 66
+      Top = 65
       Width = 100
       Height = 17
       Margins.Left = 10
@@ -752,7 +752,7 @@ object fMain: TfMain
     end
   end
   object pGoods: TPanel
-    Left = 187
+    Left = 185
     Top = 48
     Width = 795
     Height = 405
@@ -762,20 +762,24 @@ object fMain: TfMain
     Margins.Bottom = 0
     Align = alCustom
     BevelOuter = bvNone
+    Color = clActiveCaption
+    ParentBackground = False
     TabOrder = 1
     object pProduct: TPanel
       AlignWithMargins = True
-      Left = 347
-      Top = 37
+      Left = 203
+      Top = 13
       Width = 120
       Height = 160
       Margins.Left = 5
       Margins.Top = 10
       Margins.Right = 10
       Margins.Bottom = 10
-      Color = clSilver
+      BevelOuter = bvNone
+      Color = clGradientInactiveCaption
       ParentBackground = False
       TabOrder = 0
+      StyleElements = [seFont, seClient]
       object Image1: TImage
         Left = 27
         Top = 10
@@ -809,7 +813,7 @@ object fMain: TfMain
   end
   object pSearch: TPanel
     Left = 185
-    Top = -3
+    Top = 0
     Width = 797
     Height = 48
     Align = alCustom

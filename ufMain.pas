@@ -76,10 +76,11 @@ begin
   with tovar.Panel do
   begin
     Parent:= fMain.pGoods;
-    Top:= 3;
-    Left:= 3;
+    Top:= 10;
+    Left:= 10;
     Width:= 120;
     Height:= 160;
+    ParentBackground:= False;
     Color:= clSilver;
   end;
 
@@ -92,27 +93,26 @@ begin
   with tovar.Panel do
   begin
     Parent:= fMain.pGoods;
-    Top:=  3;
+    Top:=  10;
     Left:= tovar^.prev^.Panel.Width + 15;
     Width:= 120;
     Height:= 160;
+    ParentBackground:= False;
     Color:= clSilver;
   end;
 end;
 
 procedure TfMain.iFishClick(Sender: TObject);
-var prod: TfMain;
 begin
-    prod.AddProducts;
+    fMain.AddProducts;
 //  Form1.Hide;
 //  Form2.Caption := lSeafood.Caption;
 //  Form2.Show;
 end;
 
 procedure TfMain.lSeafoodClick(Sender: TObject);
-var prod: TfMain;
 begin
-    prod.AddProducts;
+    fMain.AddProducts;
 //  Form1.Hide;
 //  Form2.Caption := lSeafood.Caption;
 //  Form2.Show;

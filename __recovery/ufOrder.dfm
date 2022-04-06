@@ -1,0 +1,86 @@
+object fOrder: TfOrder
+  Left = 0
+  Top = 0
+  Caption = 'fOrder'
+  ClientHeight = 168
+  ClientWidth = 359
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Edit2: TEdit
+    Left = 198
+    Top = 8
+    Width = 150
+    Height = 24
+    Color = clBtnFace
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 0
+    Text = #1048#1084#1103
+    OnClick = Edit1Click
+  end
+  object Edit3: TEdit
+    Left = 8
+    Top = 8
+    Width = 150
+    Height = 24
+    Color = clBtnFace
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 1
+    Text = #1060#1072#1084#1080#1083#1080#1103
+    OnClick = Edit1Click
+  end
+  object Edit4: TEdit
+    Left = 8
+    Top = 56
+    Width = 150
+    Height = 24
+    Color = clBtnFace
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 2
+    Text = #1058#1077#1083#1077#1092#1086#1085
+    OnClick = Edit1Click
+  end
+  object eAdres: TEdit
+    Left = 201
+    Top = 56
+    Width = 150
+    Height = 24
+    Color = clBtnFace
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 3
+    Text = #1040#1076#1088#1077#1089
+    OnClick = Edit1Click
+  end
+  object Button1: TButton
+    Left = 144
+    Top = 112
+    Width = 75
+    Height = 25
+    Caption = #1082#1091#1087#1080#1090#1100
+    TabOrder = 4
+  end
+end
